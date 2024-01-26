@@ -1,0 +1,75 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  color:
+    specifier: ^4.2.3
+    version: 4.2.3
+  postcss:
+    specifier: ^8.4.33
+    version: 8.4.33
+
+packages:
+
+  /color-convert@2.0.1:
+    resolution: {integrity: sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=, tarball: http://registry.npm.release.ctripcorp.com/color-convert/download/color-convert-2.0.1.tgz}
+    engines: {node: '>=7.0.0'}
+    dependencies:
+      color-name: 1.1.4
+    dev: true
+
+  /color-name@1.1.4:
+    resolution: {integrity: sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=, tarball: http://registry.npm.release.ctripcorp.com/color-name/download/color-name-1.1.4.tgz}
+    dev: true
+
+  /color-string@1.9.1:
+    resolution: {integrity: sha1-RGf5FG8Db4Vbdk37W/hYK/NCx6Q=, tarball: http://registry.npm.release.ctripcorp.com/color-string/download/color-string-1.9.1.tgz}
+    dependencies:
+      color-name: 1.1.4
+      simple-swizzle: 0.2.2
+    dev: true
+
+  /color@4.2.3:
+    resolution: {integrity: sha1-14HsteVyJO5D6pYnVgEHwODGRjo=, tarball: http://registry.npm.release.ctripcorp.com/color/download/color-4.2.3.tgz}
+    engines: {node: '>=12.5.0'}
+    dependencies:
+      color-convert: 2.0.1
+      color-string: 1.9.1
+    dev: true
+
+  /is-arrayish@0.3.2:
+    resolution: {integrity: sha1-RXSirlb3qyBolvtDHq7tBm/fjwM=, tarball: http://registry.npm.release.ctripcorp.com/is-arrayish/download/is-arrayish-0.3.2.tgz}
+    dev: true
+
+  /nanoid@3.3.7:
+    resolution: {integrity: sha1-0MMBppG8jVTvoKIibM8/4v1la9g=, tarball: http://registry.npm.release.ctripcorp.com/nanoid/download/nanoid-3.3.7.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  /picocolors@1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=, tarball: http://registry.npm.release.ctripcorp.com/picocolors/download/picocolors-1.0.0.tgz}
+    dev: true
+
+  /postcss@8.4.33:
+    resolution: {integrity: sha1-E3joWcn2m/b2OLmQoCEvQ+Kqp0I=, tarball: http://registry.npm.release.ctripcorp.com/postcss/download/postcss-8.4.33.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
+  /simple-swizzle@0.2.2:
+    resolution: {integrity: sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=, tarball: http://registry.npm.release.ctripcorp.com/simple-swizzle/download/simple-swizzle-0.2.2.tgz}
+    dependencies:
+      is-arrayish: 0.3.2
+    dev: true
+
+  /source-map-js@1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=, tarball: http://registry.npm.release.ctripcorp.com/source-map-js/download/source-map-js-1.0.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true

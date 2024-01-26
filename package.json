@@ -1,0 +1,22 @@
+{
+  "name": "loader-plugin",
+  "version": "1.0.0",
+  "description": "the loader & the plugin of many libs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndon-learn/loader-plugin.git"
+  },
+  "author": "wuxianzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyndon-learn/loader-plugin/issues"
+  },
+  "homepage": "https://github.com/lyndon-learn/loader-plugin#readme",
+  "devDependencies": {
+    "color": "^4.2.3"
+  }
+}
